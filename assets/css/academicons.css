@@ -457,4 +457,8 @@ p.paper-title {
   img.paper-image {
     width: 100vw;
   }
+
+  .paper-details {
+    margin-top: 15px;
+  }
 }
