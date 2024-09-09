@@ -423,6 +423,14 @@
   display: flex;
 }
 
+img.paper-image {
+  width: 25vw;
+}
+
+p.paper-title {
+  font-size: large;
+}
+
 .paper-button {
   display: inline-block;
   padding: 5px 5px;
@@ -437,4 +445,16 @@
 
 .paper-button:hover {
   background-color: #21618C;
+}
+
+
+/* Responsive Layout for Smaller Screens */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  img.paper-image {
+    width: 100vw;
+  }
 }
